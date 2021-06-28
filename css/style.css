@@ -1,0 +1,126 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background: #5a5a5a;
+}
+
+main{
+    background: #F0F2EF;
+    margin: 2rem 0;
+    border-radius: 0.3rem;
+}
+
+img{
+    display: block;
+    margin: auto;
+    max-width: 68%;
+    padding-top: 4rem;
+}
+
+#title{
+    padding-top: 3rem;
+    font-size: 1.2rem;
+    color: rgb(46, 46, 46);
+}
+
+#sub-heading{
+    font-size: 0.96rem;
+}
+
+#img-div{
+    background:#5a5a5a;
+    width: 98%;
+    margin: auto;
+    border-radius: 0.3rem;
+}
+
+#img-caption{
+    font-size: 0.98rem;
+    padding: 1rem 0 1rem 0;
+    width: 65%;
+    margin: auto;
+    color: #F0F2EF;
+}
+
+#tribute-info{
+    width: 500px;
+    margin: auto;
+}
+
+time {
+    font-weight: bold;
+}
+
+#wiki-link{
+    font-weight: bold;
+    padding: 3rem 0;
+    font-size: 1.2rem;
+}
+
+article{
+    padding-left: 1rem;
+    padding-top: 1rem;
+    width: 90%;
+    text-align: left;
+}
+
+a{
+    color:#757575;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#ffaf02;
+}
+
+ul{
+    text-align: left;
+    line-height: 1.8rem;
+    list-style: none;
+}
+
+li{
+    color: #505050;
+}
+
+li::before {
+    content: "• ";
+    color: rgb(0, 0, 0);
+}
+
+time{
+    color: black;
+}
+
+footer{
+    margin: 2.5rem 0;
+}
+
+#footer-text{
+    color: #F0F2EF;
+    margin: 10rem, 0;
+    font-size: 0.95rem;
+}
+
+@media(max-width: 1000px)
+{
+    #wiki-link{
+        width: 470px;
+        margin: auto;
+    }
+}
+
+@media(max-width: 1000px)
+{
+    #img-caption{
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width: 600px)
+{
+    #img-caption{
+        font-size: 0.6rem;
+    }
+}
+
