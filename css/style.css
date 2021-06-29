@@ -45,6 +45,7 @@ img{
 #tribute-info{
     width: 500px;
     margin: auto;
+    text-align: center;
 }
 
 time {
@@ -102,25 +103,37 @@ footer{
     font-size: 0.95rem;
 }
 
-@media(max-width: 1000px)
-{
-    #wiki-link{
-        width: 470px;
-        margin: auto;
-    }
-}
 
 @media(max-width: 1000px)
 {
     #img-caption{
         font-size: 0.8rem;
     }
+
+    #wiki-link{
+        width: 470px;
+        margin: auto;
+    }
 }
 
-@media(max-width: 600px)
+@media(max-width: 500px)
 {
     #img-caption{
         font-size: 0.6rem;
+    }
+
+    #tribute-info{
+        width: 95%;
+        font-size: 0.70rem;
+      }
+      
+    #tribute-info h2, h3{
+        font-size: 0.8rem;
+    }
+      
+    #wiki-link{
+        width: 95%;
+        font-size: 0.8rem;
     }
 }
 
